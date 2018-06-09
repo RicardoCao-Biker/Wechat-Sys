@@ -6,8 +6,19 @@ class TopNav extends React.Component{
 	};
 	render(){
 		return(
-			<div id="wrapper">
-			 top
+			<div id="topnav">
+			 	<a class="logo"></a>
+			 	<div class="topnav_right">
+			 		<ul>
+			 			<li class="underline">文档</li>
+			 			<li class="underline"> 社区</li>
+			 			<li>
+				 			<i class="notice"></i>
+				 			<div class="noticenum">1</div>
+			 			</li>
+			 			<li><i class="headimg"></i></li>s
+			 		</ul>
+			 	</div>
 			</div>	
 		);
 	}

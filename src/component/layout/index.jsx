@@ -9,7 +9,7 @@ class Layout extends React.Component{
 	};
 	render(){
 		return(
-			<div id="wrapper">
+			<div id="layout">
 				<TopNav />
 				<SideNav />
 				{this.props.children}
