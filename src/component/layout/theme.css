@@ -134,6 +134,21 @@
 	position:absolute;
 	left: 256px;
 	width:calc(100% - 256px);
-	margin-top: 40px;
-	background-color: red;
+	margin: 40px 0 120px 0;
+/*	background-color: red;*/
+}
+#bottomnav{
+	color:grey;
+	position:absolute;
+	bottom:-100px;
+	left:100px;
+	padding:10px;
+	border-top: solid 1px #EFF1F3;
+}
+#bottomnav span{
+	margin-right: 20px;
+	cursor:pointer;
+}
+#bottomnav span:last-child{
+	margin-left: 60px;
 }

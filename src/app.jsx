@@ -6,6 +6,7 @@ import Home from 'page/home/index.jsx';
 import Id from 'page/id/index.jsx';
 import Data from 'page/data/index.jsx';
 import Dev from 'page/dev/index.jsx';
+
 import Layout from 'component/layout/index.jsx';
 
 import './index.css';

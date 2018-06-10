@@ -1,0 +1,51 @@
+.id{
+	width:85%;
+	margin:0 auto;
+	display:grid;
+	grid-template-rows:40px 200px 300px;
+	grid-row-gap: 30px;
+}
+.idtitle{
+	font-size:26px;
+}
+.idcontent{
+	background-color:white;
+	border:0;
+	border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(150,150,150,0.3);
+    padding:25px;
+}
+.idcontent_title{
+	font-size:20px;
+}
+.idcontent_title2{
+	font-size:14px;
+	color:grey;
+	margin-left:40px;
+}
+.id_button1{
+	background-color:#1aad19;
+	border:0;
+	color:white;
+	border-radius: 5px;
+	width:80px;
+	height:35px;
+	cursor:pointer;
+	position:absolute;
+	right:150px;
+}
+.id_button2{
+	background-color:#1aad19;
+	border:0;
+	color:white;
+	border-radius: 5px;
+	width:35px;
+	height:35px;
+	cursor:pointer;
+	position:absolute;
+	right:100px;
+}
+.id_button2 div{
+	position:absolute;
+	
+}

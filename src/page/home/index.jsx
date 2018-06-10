@@ -1,4 +1,5 @@
 import React from 'react'
+import BottomNav from "component/nav-bottom/index.jsx"
 import "./home.css"
 
 class Home extends React.Component{
@@ -14,11 +15,10 @@ class Home extends React.Component{
 								<p>小程序信息</p>
 							</div>
 							<div>
-								<p>补充小程序的基本信息，如名称、图标、描述等</p>
+								<p class="home_content_content">补充小程序的基本信息，如名称、图标、描述等</p>
 							</div>
 							<div>
 								<p>已完成</p>
-								<a>查看详情</a>
 							</div>
 						</div>
 						<div class="home_content_2">
@@ -32,22 +32,22 @@ class Home extends React.Component{
 							<div>
 								<p>开发工具</p>
 							</div>
-							<div><p>下载开发者工具进行代码的开发和上传： 普通小程序开发者工具 、 小游戏开发者工具</p></div>
+							<div><p class="home_content_content">下载开发者工具进行代码的开发和上传： 普通小程序开发者工具 、 小游戏开发者工具</p></div>
 							<div></div>
 							<div>
 								<p>添加开发者</p>
 							</div>
-							<div><p>添加开发者，进行代码上传</p></div>
+							<div><p class="home_content_content">添加开发者，进行代码上传</p></div>
 							<div></div>
 							<div>
 								<p>配置服务器</p>
 							</div>
-							<div><p>在开发设置页面查看AppID和AppSecret，配置服务器域名</p></div>
+							<div><p class="home_content_content">在开发设置页面查看AppID和AppSecret，配置服务器域名</p></div>
 							<div></div>
 							<div>
 								<p>帮助文档</p>
 							</div>
-							<div><p>可以阅读入门介绍（普通小程序 | 小游戏）、开发文档（普通小程序 | 小游戏）、设计规范和运营规范</p></div>
+							<div><p class="home_content_content">可以阅读入门介绍（普通小程序 | 小游戏）、开发文档（普通小程序 | 小游戏）、设计规范和运营规范</p></div>
 							<div></div>
 						</div>
 					</div>		
@@ -66,6 +66,7 @@ class Home extends React.Component{
 						</div>
 					</div>		
 				</div>
+				<BottomNav />
 			</div>
 			);
 	}
